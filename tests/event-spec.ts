@@ -1,3 +1,5 @@
+/// <reference path="../typings/main.d.ts" />
+
 import Application from '../src/app/application';
 
 let app = new Application();
