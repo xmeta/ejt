@@ -20,7 +20,7 @@ app.on('ready', function () {
         height: 600
     });
 
-    mainWindow.loadURL('file://' + __dirname + '/src/index.html');
+    mainWindow.loadURL('file://' + __dirname + '/index.html');
     mainWindow.webContents.on('did-finish-load', function () {
         mainWindow.setTitle(app.getName());
     });

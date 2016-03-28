@@ -2,10 +2,11 @@
   "name": "ejt",
   "version": "0.0.1",
   "description": "A boilerplate Electron App with jspm and TypeScript",
-  "main": "index.js",
+  "main": "target/index.js",
   "scripts": {
-    "install": "jspm install && typings install",
+    "install": "typings install",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "jspm install && tsc -p . && cp ./src/index.html ./target/index.html",
     "start": "electron ."
   },
   "author": "xmeta",
@@ -16,7 +17,7 @@
   "license": "MIT",
   "jspm": {
     "directories": {
-      "baseURL": "src"
+      "baseURL": "target"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",

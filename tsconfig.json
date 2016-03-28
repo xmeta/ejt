@@ -1,6 +1,16 @@
 {
 	"compilerOptions": {
 		"target": "ES5",
-		"module": "commonjs"
-	}
+		"module": "commonjs",
+		"rootDir": "./src",
+		"outDir": "./target"
+	},
+	"exclude": [
+      "node_modules",
+			"src/jspm_packages",
+			"target",
+			"tests",
+			"typings/main.d.ts",
+      "typings/main"
+	]
 }
