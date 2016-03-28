@@ -1,0 +1,11 @@
+node_modules
+jspm_packages
+typings
+src/config.js
+src/app/**/**.js
+tests/**/**.js
+.bin
+.coverdata
+.coverrun
+.coverdebug
+cover-reports

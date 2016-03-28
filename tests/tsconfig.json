@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"module": "commonjs",
+		"outDir": ".bin"
+	},
+	"files": [
+		"../typings/jasmine/jasmine.d.ts",
+		"event-spec.ts",
+		"command-spec.ts"
+	]
+}

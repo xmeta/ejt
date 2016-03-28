@@ -1,0 +1,35 @@
+{
+  "name": "ejt",
+  "version": "0.0.1",
+  "description": "A boilerplate Electron App with jspm and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "install": "jspm install && typings install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "xmeta",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xmeta/ejt.git"
+  },
+  "license": "MIT",
+  "jspm": {
+    "directories": {
+      "baseURL": "src"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4",
+      "typescript": "npm:typescript@^1.8.9"
+    }
+  },
+  "devDependencies": {
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-coverage": "^0.3.36",
+    "gulp-jasmine": "^2.0.1",
+    "gulp-shell": "^0.4.2"
+  }
+}

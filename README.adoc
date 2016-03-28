@@ -1,0 +1,39 @@
+= EJT
+
+EJT (Electron jspm TypeScript) is a boileplate of building apps with Electron, jspm and TypeScript.
+
+image:https://img.shields.io/badge/license-MIT-blue.svg[MIT License]
+
+== Getting Started
+
+=== Configure Your Environment
+
+. Install Node.js from the http://nodejs.org[official site] or from
+https://github.com/creationix/nvm[nvm].
+
+. Install jspm via npm and configure
++
+--
+. `$ npm install jspm -g`
+. `$ jspm registry config github`
+
+NOTE: Following the jspm prompt to enter your GitHub credential. Make sure jspm is 0.16+.
+--
+
+. Install Electron via npm
++
+`$ npm install eletron-prebuilt -g`
+
+=== Build and Run
+. `$ git clone https://github.com/xmeta/ejt.git`
+. `$ cd electron-jspm-typescript`
+. `$ npm install`
+. `$ npm start`
+
+== License
+
+http://www.opensource.org/licenses/MIT[MIT]
+
+== Author
+
+- xmeta https://github.com/xmeta[github]
