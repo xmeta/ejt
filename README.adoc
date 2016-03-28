@@ -28,6 +28,7 @@ NOTE: Following the jspm prompt to enter your GitHub credential. Make sure jspm 
 . `$ git clone https://github.com/xmeta/ejt.git`
 . `$ cd ejt`
 . `$ npm install`
+. `$ npm run build`
 . `$ npm start`
 
 == License
